@@ -11,8 +11,7 @@ footer {
     width: 1000px; 
     display: inline-block;
     margin-left: calc(50% - 500px);
-    margin-bottom: 30px;
-    background-color: yellow;  
+    margin-bottom: 30px;  
 }
 
 header {
@@ -69,11 +68,26 @@ p {
 }
 
 div > a {
-    background-color: red;
+    float: left;
+    padding: 0.9em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #fff;
+    background-color: #5A448A;
+    border-radius: 1.7em;
+    border: 0.15em solid #5A448A;
 }
 
 div > a:last-child {
-    background-color: blue;
+    color: #5A448A;
+    background-color: #fff;
+    
 }
 
 
